@@ -8,14 +8,14 @@ Official zero-dependency C# client SDK for HS DEVS AUTH applications.
 - **Hardware ID (HWID) Protection**: Automatically grabs Windows MachineGuid, WindowsIdentity SID, or cross-platform fallback hashes to bind and lock licenses.
 - **In-App Live Messaging & Remote Killswitch**: Native event callback `OnMessageReceived` triggers whenever you broadcast alerts or send an instant killswitch from your dashboard.
 - **Remote Variables & Files**: Download protected strings and binary files straight from the cloud.
-- **100% Free**: Up to 5 free apps and unlimited license key generations on [HS DEVS AUTH](https://hsauth.mujahid.xyz).
+- **100% Free**: Up to 5 free apps and unlimited license key generations on [HS DEVS AUTH](https://auth.hsdevs.pro).
 
 ---
 
 ## Quick Start
 
 ### 1. Download `HSAUTH.cs`
-Save [HSAUTH.cs](https://hsauth.mujahid.xyz/sdk/HSAUTH.cs) directly into your C# project.
+Save [HSAUTH.cs](https://auth.hsdevs.pro/sdk/HSAUTH.cs) directly into your C# project.
 
 ### 2. Instantiate and Initialize
 ```csharp
@@ -26,7 +26,7 @@ public static api HSAuthApp = new api(
     ownerid: "your_app_identifier_from_dashboard",
     secret: "your_app_secret_from_dashboard",
     version: "1.0",
-    apiUrl: "https://hsauth.mujahid.xyz/api/1.3/"
+    apiUrl: "https://auth.hsdevs.pro/api/1.3/"
 );
 
 static void Main()
