@@ -12,7 +12,7 @@ namespace HSAuthWinFormsExample
             ownerid: "your_app_identifier_here",
             secret: "your_app_secret_here",
             version: "1.0",
-            apiUrl: "https://hsauth.mujahid.xyz/api/1.3/"
+            apiUrl: "https://auth.hsdevs.pro/api/1.3/"
         );
 
         private TextBox txtUser;
