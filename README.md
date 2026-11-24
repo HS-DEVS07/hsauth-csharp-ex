@@ -24,7 +24,6 @@ using HSAUTH;
 public static api HSAuthApp = new api(
     name: "YourAppName",
     ownerid: "your_app_identifier_from_dashboard",
-    secret: "your_app_secret_from_dashboard",
     version: "1.0",
     apiUrl: "https://auth.hsdevs.pro/api/1.3/"
 );
